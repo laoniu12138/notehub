@@ -32,4 +32,4 @@ a[i]_address = base_address + （i - 1 ） * data_type_size
 ##### 针对删除的改良：对于要删除的数据进行标记，当一段时间，或者有其他条件下进行一次性删除和迁移数据。（这也是JVM标记清除垃圾回收算法的核心思想）
 
 
-![picture](https://github.com/laoniu12138/notehub/blob/master/picture/b69b8c5dbf6248649ddab7d3e7cfd7e5.jpg?raw=true)
+![picture](https://github.com/laoniu12138/notehub/blob/main/picture/b69b8c5dbf6248649ddab7d3e7cfd7e5.jpg?raw=true)
