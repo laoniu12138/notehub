@@ -295,7 +295,9 @@ ERROR 1008 (HY000): Can't drop database 'test_db_del'; database doesn't exist
 mysql> DROP DATABASE IF EXISTS test_db_del;
 Query OK, 0 rows affected, 1 warning (0.00 sec)
 
-注意：使用 DROP DATABASE 命令时要非常谨慎，在执行该命令后，MySQL 不会给出任何提示确认信息。DROP DATABASE 删除数据库后，数据库中存储的所有数据表和数据也将一同被删除，而且不能恢复。因此最好在删除数据库之前先将数据库进行备份。
+注意：使用 DROP DATABASE 命令时要非常谨慎，在执行该命令后，MySQL 不会给出任何提示确认信息。
+DROP DATABASE 删除数据库后，数据库中存储的所有数据表和数据也将一同被删除，而且不能恢复。
+因此最好在删除数据库之前先将数据库进行备份。
 ```
 
 
